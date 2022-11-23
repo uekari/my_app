@@ -73,7 +73,7 @@ class _AddEditAlarmPage extends State<AddEditAlarmPage> {
             },
           )
         ],
-        backgroundColor: Color.fromRGBO(166, 193, 238, 1),
+        backgroundColor: Color.fromRGBO(253, 160, 133, 1),
         title: Text("アラームを追加", style: TextStyle(color: Colors.white)),
       ),
       body: Container(
@@ -84,8 +84,8 @@ class _AddEditAlarmPage extends State<AddEditAlarmPage> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-              Color.fromRGBO(166, 193, 238, 1),
-              Color.fromRGBO(251, 194, 235, 1),
+              Color.fromRGBO(253, 160, 133, 1),
+              Color.fromRGBO(246, 211, 101, 1),
             ],
                 stops: const [
               0.0,

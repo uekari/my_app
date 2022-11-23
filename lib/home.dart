@@ -70,8 +70,8 @@ class _HomepageState extends State<Homepage> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 colors: [
-              Color.fromRGBO(166, 193, 238, 1),
-              Color.fromRGBO(251, 194, 235, 1),
+              Color.fromRGBO(253, 160, 133, 1),
+              Color.fromRGBO(246, 211, 101, 1),
             ],
                 stops: const [
               0.0,
@@ -80,9 +80,9 @@ class _HomepageState extends State<Homepage> {
         child: CustomScrollView(
           slivers: [
             CupertinoSliverNavigationBar(
-              backgroundColor: Color.fromRGBO(166, 193, 238, 0.3),
+              backgroundColor: Color.fromRGBO(246, 211, 101, 0.3),
               largeTitle: Text(
-                "リスト!",
+                "リスト",
                 style: TextStyle(color: Colors.white),
               ),
               trailing: GestureDetector(

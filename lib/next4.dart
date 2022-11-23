@@ -16,7 +16,7 @@ class NextPage4 extends StatefulWidget {
 class _TimerState extends State<NextPage4> {
   String _nowtime = '';
   var formatter = DateFormat(
-    'yyyy年MM月dd日\n' + 'HH時mm分ss秒',
+    'yyyy年MM月dd日' + 'HH時mm分ss秒',
   );
   var _timer;
 
@@ -58,8 +58,8 @@ class _TimerState extends State<NextPage4> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                Color.fromRGBO(251, 194, 235, 1),
-                Color.fromRGBO(166, 193, 238, 1),
+                Color.fromRGBO(246, 211, 101, 1),
+                Color.fromRGBO(253, 160, 133, 1),
               ],
                   stops: const [
                 0.0,
@@ -68,7 +68,7 @@ class _TimerState extends State<NextPage4> {
           padding: EdgeInsets.all(20),
           child: ListView(
             children: <Widget>[
-              SizedBox(height: 45),
+              SizedBox(height: 50),
               Container(
                 alignment: Alignment.center,
                 child: Column(
@@ -79,14 +79,14 @@ class _TimerState extends State<NextPage4> {
                         Text(
                           _nowtime.substring(12, 17),
                           style: TextStyle(
-                            fontSize: 100,
+                            fontSize: 70,
                             color: Colors.grey,
                           ),
                         ),
                         Text(
                           _nowtime.substring(17, 19),
                           style: TextStyle(
-                            fontSize: 70,
+                            fontSize: 60,
                             color: Colors.grey,
                           ),
                         )
