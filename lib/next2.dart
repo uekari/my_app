@@ -3,13 +3,8 @@ import 'package:my_app/next3.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class NextPage2 extends StatelessWidget {
-  // 前ページで入力した(ありがとう！！！)をnameに代入
-  NextPage2(this.name);
-  final String name;
-
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -30,37 +25,37 @@ class NextPage2 extends StatelessWidget {
               Icons.cached,
               size: 100,
             ),
-            Row(
-              // ボタンを２つ横並びにする
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                // 次へボタンを押した時・・・とその処理
-                ElevatedButton(
-                  child: const Text("次へ"),
-                  onPressed: () {
-                    // ボタンを押した時に呼ばれるコードを書く
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => NextPage3(),
-                      ),
-                    );
-                  },
-                ),
-                // 戻るボタンを押した時・・・とその処理
-                ElevatedButton(
-                    child: const Text("戻る"),
-                    onPressed: () {
-                      // popで前のページに戻れる
-                      // 前のページに戻ったら"どういたしまして！！！"を表示させる
-                      // どこに・・・？かが分からない
-                      Navigator.pop(context, "どういたしまして！！！");
-                    }),
-              ],
-            ),
-            const Text("アンゴラうさぎ〜"),
-            // 前の画面で入力してるname内(ここでは”ありがとう！！！”)を表示
-            Text(name),
+            // Row(
+            //   // ボタンを２つ横並びにする
+            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            //   children: [
+            //     // 次へボタンを押した時・・・とその処理
+            //     ElevatedButton(
+            //       child: const Text("次へ"),
+            //       onPressed: () {
+            //         // ボタンを押した時に呼ばれるコードを書く
+            //         Navigator.push(
+            //           context,
+            //           MaterialPageRoute(
+            //             builder: (context) => NextPage3(),
+            //           ),
+            //         );
+            //       },
+            //     ),
+            //     // 戻るボタンを押した時・・・とその処理
+            //     ElevatedButton(
+            //         child: const Text("戻る"),
+            //         onPressed: () {
+            //           // popで前のページに戻れる
+            //           // 前のページに戻ったら"どういたしまして！！！"を表示させる
+            //           // どこに・・・？かが分からない
+            //           Navigator.pop(context, "どういたしまして！！！");
+            //         }),
+            //   ],
+            // ),
+            // const Text("アンゴラうさぎ〜"),
+            // // 前の画面で入力してるname内(ここでは”ありがとう！！！”)を表示
+            // Text(name),
           ],
         ),
       ),

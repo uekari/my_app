@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage>
               top: 20,
             ),
           ),
-          Text("順番を決めよう！！！！！"),
+          Text("順番を決めよう！！！"),
           Column(
             children: [
               Padding(
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage>
                     decoration: InputDecoration(
                       icon: Icon(
                         Icons.favorite,
-                        color: Color.fromARGB(255, 130, 219, 63),
+                        color: Color.fromARGB(255, 245, 241, 7),
                       ),
                       hintText: "name",
                     ),
