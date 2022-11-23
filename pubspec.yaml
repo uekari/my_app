@@ -53,7 +53,7 @@ dev_dependencies:
 
   flutter_launcher_icons: ^0.9.2
 
-  flutter_icons:   # 追加
+flutter_icons:   # 追加
   ios: true      # 追加
   image_path: "img/icon.png"
 
