@@ -12,7 +12,7 @@ class NextPage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset("img/icon.png"),
+            Image.asset("img/icon2.png"),
             // Text(
             //   "あやかり隊",
             //   // 文字のスタイル変更
