@@ -80,7 +80,7 @@ class _HomepageState extends State<Homepage> {
         child: CustomScrollView(
           slivers: [
             CupertinoSliverNavigationBar(
-              backgroundColor: Color.fromRGBO(246, 211, 101, 0.3),
+              backgroundColor: Color.fromRGBO(253, 160, 133, 0.3),
               largeTitle: Text(
                 "リスト",
                 style: TextStyle(color: Colors.white),
